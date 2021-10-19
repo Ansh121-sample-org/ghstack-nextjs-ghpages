@@ -23,7 +23,6 @@ inputs:                                                # stack inputs
   - name: GITHUB_PAT_Text_Field
     description: GitHub PAT with repo and workflow permissions
     required: true
-    is-secret: false
 
 configs:                                               # stack config applied to new repository
   - repo-metadata:
